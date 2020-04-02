@@ -53,8 +53,11 @@ class Song
       else
         artist_count[item] = 1 
       end
+    end
+    artist_count
     
   end
+  
     
   
   
