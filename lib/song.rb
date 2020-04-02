@@ -39,10 +39,9 @@ class Song
       else
         genre[item] = 1 
       end
-      genre
-      
-      
+    
     end
+    genre
   end
   
   
