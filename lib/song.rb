@@ -33,11 +33,11 @@ class Song
     genre_count = {}
     @@genres.each do |item|
       
-      if item == self.genre[item]
-        genre[item] += 1 
+      if genre_count[item]
+        genre_count[item] += 1 
       
       else
-        genre[item] = 1 
+        genre_count[item] = 1 
       end
     
     end
